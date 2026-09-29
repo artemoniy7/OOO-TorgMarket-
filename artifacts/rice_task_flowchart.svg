@@ -12,7 +12,7 @@
 <rect x="70" y="174" width="1650" height="50" rx="12" fill="#e5f7f5"/>
 <text x="94" y="205" class="note">Цель и бюджет → заказ клиента → поставка → приёмка → операция в системе → учёт и обратный статус</text>
 <text x="70" y="266" class="section">РОЛИ И ДЕЙСТВИЯ</text>
-<rect x="744" y="488" width="704" height="228" rx="22" fill="#eef4f8" stroke="#cfdee8" stroke-width="2" stroke-dasharray="6 6"/>
+<rect x="744" y="488" width="704" height="414" rx="22" fill="#eef4f8" stroke="#cfdee8" stroke-width="2" stroke-dasharray="6 6"/>
 <text x="770" y="523" class="section">ПАРАЛЛЕЛЬНЫЙ КОНТУР ПОСТАВКИ И ПРИЁМКИ</text>
 <rect x="70" y="304" width="270" height="130" rx="16" fill="#fff" stroke="#1D4F7A" stroke-width="3"/>
 <rect x="70" y="304" width="270" height="42" rx="14" fill="#1D4F7A"/>
@@ -39,6 +39,12 @@
 <text x="1136" y="586" class="role">Логист</text>
 <text x="1136" y="628" class="action">Принимает товар, сверяет документы</text>
 <text x="1136" y="647" class="action">и коды маркировки.</text>
+<rect x="1080" y="750" width="300" height="130" rx="16" fill="#fff" stroke="#355C7D" stroke-width="3"/>
+<rect x="1080" y="750" width="300" height="42" rx="14" fill="#355C7D"/>
+<rect x="1080" y="778" width="300" height="14" fill="#355C7D"/>
+<text x="1096" y="776" class="role">Ядро системы (БД)</text>
+<text x="1096" y="818" class="action">Обновляет остатки, статусы кодов и</text>
+<text x="1096" y="837" class="action">журнал операций.</text>
 <rect x="1480" y="304" width="300" height="130" rx="16" fill="#fff" stroke="#2B7A52" stroke-width="3"/>
 <rect x="1480" y="304" width="300" height="42" rx="14" fill="#2B7A52"/>
 <rect x="1480" y="332" width="300" height="14" fill="#2B7A52"/>
@@ -63,15 +69,18 @@
 <path d="M 1070 625 H 1120" class="arrow"/>
 <rect x="1073" y="590" width="112" height="24" rx="8" fill="#f6f8fb"/>
 <text x="1080" y="607" class="arrow-label">поставка и УПД</text>
-<path d="M 1420 625 H 1450 V 434 H 1480" class="arrow"/>
-<rect x="1263" y="589" width="112" height="24" rx="8" fill="#f6f8fb"/>
-<text x="1270" y="606" class="arrow-label">остатки и коды</text>
+<path d="M 1270 690 V 750" class="arrow"/>
+<rect x="1275" y="704" width="168" height="24" rx="8" fill="#f6f8fb"/>
+<text x="1282" y="721" class="arrow-label">приёмка: остатки и КМ</text>
+<path d="M 1380 815 H 1440 V 434 H 1480" class="arrow"/>
+<rect x="1383" y="543" width="112" height="24" rx="8" fill="#f6f8fb"/>
+<text x="1390" y="560" class="arrow-label">данные из ядра</text>
 <path d="M 1630 434 V 720" class="arrow"/>
 <rect x="1635" y="562" width="104" height="24" rx="8" fill="#f6f8fb"/>
 <text x="1642" y="579" class="arrow-label">данные сделки</text>
-<path d="M 1480 785 H 118 V 434" class="arrow" stroke-dasharray="9 7"/>
-<rect x="673" y="753" width="136" height="24" rx="8" fill="#f6f8fb"/>
-<text x="680" y="770" class="arrow-label">статус проведения</text>
+<path d="M 1480 735 H 1425 V 715 H 720 V 460 H 118 V 434" class="arrow" stroke-dasharray="9 7"/>
+<rect x="683" y="688" width="136" height="24" rx="8" fill="#f6f8fb"/>
+<text x="690" y="705" class="arrow-label">статус проведения</text>
 <path d="M 720 402 V 886 H 1460 V 785 H 1480" class="arrow" stroke-dasharray="9 7"/>
 <rect x="1028" y="856" width="112" height="24" rx="8" fill="#f6f8fb"/>
 <text x="1035" y="873" class="arrow-label">условия оплаты</text>
