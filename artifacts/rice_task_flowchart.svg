@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" role="img" aria-labelledby="title desc">
+<title id="title">RICE-карта движения задач ООО «ТоргМаркет» в формате блок-схемы</title>
+<desc id="desc">Блок-схема передачи задач между ролями компании без использования персональных имён.</desc>
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M 0 0 L 10 4 L 0 8 z" fill="#4E6175"/></marker></defs>
+<style>.title{font:700 36px Arial,sans-serif;fill:#132238}.subtitle{font:400 18px Arial,sans-serif;fill:#5a6879}.section{font:700 14px Arial,sans-serif;fill:#34516e;letter-spacing:1px}.role{font:700 15px Arial,sans-serif;fill:#fff}.action{font:400 16px Arial,sans-serif;fill:#17283d}.arrow{fill:none;stroke:#4E6175;stroke-width:3;marker-end:url(#arrowhead)}.arrow-label{font:700 13px Arial,sans-serif;fill:#3A5068}.note{font:400 15px Arial,sans-serif;fill:#3D556D}.small{font:400 13px Arial,sans-serif;fill:#526174}</style>
+<rect width="1920" height="1080" fill="#f6f8fb"/>
+<rect width="1920" height="12" fill="#00A6A6"/>
+<text x="70" y="70" class="title">RICE-карта: движение задач в формате блок-схемы</text>
+<text x="70" y="104" class="subtitle">Стрелка показывает передачу результата. Текст внутри блока — действие роли в этот момент.</text>
+<text x="70" y="154" class="section">ОСНОВНОЙ ПОТОК ЗАДАЧ</text>
+<rect x="70" y="174" width="1650" height="50" rx="12" fill="#e5f7f5"/>
+<text x="94" y="205" class="note">Цель и бюджет → заказ клиента → поставка → приёмка → операция в системе → учёт и обратный статус</text>
+<text x="70" y="266" class="section">РОЛИ И ДЕЙСТВИЯ</text>
+<rect x="744" y="488" width="704" height="414" rx="22" fill="#eef4f8" stroke="#cfdee8" stroke-width="2" stroke-dasharray="6 6"/>
+<text x="770" y="523" class="section">ПАРАЛЛЕЛЬНЫЙ КОНТУР ПОСТАВКИ И ПРИЁМКИ</text>
+<rect x="70" y="304" width="270" height="130" rx="16" fill="#fff" stroke="#1D4F7A" stroke-width="3"/>
+<rect x="70" y="304" width="270" height="42" rx="14" fill="#1D4F7A"/>
+<rect x="70" y="332" width="270" height="14" fill="#1D4F7A"/>
+<text x="86" y="330" class="role">Главный директор</text>
+<text x="86" y="372" class="action">Утверждает цели, бюджет и</text>
+<text x="86" y="391" class="action">приоритеты проекта.</text>
+<rect x="420" y="304" width="300" height="130" rx="16" fill="#fff" stroke="#007D8A" stroke-width="3"/>
+<rect x="420" y="304" width="300" height="42" rx="14" fill="#007D8A"/>
+<rect x="420" y="332" width="300" height="14" fill="#007D8A"/>
+<text x="436" y="330" class="role">Коммерческий директор</text>
+<text x="436" y="372" class="action">Формирует потребность клиента, цену</text>
+<text x="436" y="391" class="action">и условия продажи.</text>
+<rect x="770" y="560" width="300" height="130" rx="16" fill="#fff" stroke="#7C5A9B" stroke-width="3"/>
+<rect x="770" y="560" width="300" height="42" rx="14" fill="#7C5A9B"/>
+<rect x="770" y="588" width="300" height="14" fill="#7C5A9B"/>
+<text x="786" y="586" class="role">Менеджер по работе с</text>
+<text x="786" y="602" class="role">поставщиками</text>
+<text x="786" y="628" class="action">Запрашивает наличие, сроки поставки</text>
+<text x="786" y="647" class="action">и первичные документы.</text>
+<rect x="1120" y="560" width="300" height="130" rx="16" fill="#fff" stroke="#C46A32" stroke-width="3"/>
+<rect x="1120" y="560" width="300" height="42" rx="14" fill="#C46A32"/>
+<rect x="1120" y="588" width="300" height="14" fill="#C46A32"/>
+<text x="1136" y="586" class="role">Логист</text>
+<text x="1136" y="628" class="action">Принимает товар, сверяет документы</text>
+<text x="1136" y="647" class="action">и коды маркировки.</text>
+<rect x="1080" y="750" width="300" height="130" rx="16" fill="#fff" stroke="#355C7D" stroke-width="3"/>
+<rect x="1080" y="750" width="300" height="42" rx="14" fill="#355C7D"/>
+<rect x="1080" y="778" width="300" height="14" fill="#355C7D"/>
+<text x="1096" y="776" class="role">Ядро системы (БД)</text>
+<text x="1096" y="818" class="action">Обновляет остатки, статусы кодов и</text>
+<text x="1096" y="837" class="action">журнал операций.</text>
+<rect x="1480" y="304" width="300" height="130" rx="16" fill="#fff" stroke="#2B7A52" stroke-width="3"/>
+<rect x="1480" y="304" width="300" height="42" rx="14" fill="#2B7A52"/>
+<rect x="1480" y="332" width="300" height="14" fill="#2B7A52"/>
+<text x="1496" y="330" class="role">ИТ-специалист</text>
+<text x="1496" y="372" class="action">Проверяет остатки и коды; проводит</text>
+<text x="1496" y="391" class="action">операцию в БД.</text>
+<rect x="1480" y="720" width="300" height="130" rx="16" fill="#fff" stroke="#9A3E58" stroke-width="3"/>
+<rect x="1480" y="720" width="300" height="42" rx="14" fill="#9A3E58"/>
+<rect x="1480" y="748" width="300" height="14" fill="#9A3E58"/>
+<text x="1496" y="746" class="role">Главный бухгалтер</text>
+<text x="1496" y="788" class="action">Проверяет НДС, оплату и отражает</text>
+<text x="1496" y="807" class="action">сделку в учёте.</text>
+<path d="M 340 369 H 420" class="arrow"/>
+<rect x="345" y="334" width="80" height="24" rx="8" fill="#f6f8fb"/>
+<text x="352" y="351" class="arrow-label">цели и KPI</text>
+<path d="M 720 369 H 1480" class="arrow"/>
+<rect x="953" y="334" width="232" height="24" rx="8" fill="#f6f8fb"/>
+<text x="960" y="351" class="arrow-label">заказ и требования к операции</text>
+<path d="M 570 434 V 490 H 920 V 560" class="arrow"/>
+<rect x="733" y="461" width="160" height="24" rx="8" fill="#f6f8fb"/>
+<text x="740" y="478" class="arrow-label">потребность в товаре</text>
+<path d="M 1070 625 H 1120" class="arrow"/>
+<rect x="1073" y="590" width="112" height="24" rx="8" fill="#f6f8fb"/>
+<text x="1080" y="607" class="arrow-label">поставка и УПД</text>
+<path d="M 1270 690 V 750" class="arrow"/>
+<rect x="1275" y="704" width="168" height="24" rx="8" fill="#f6f8fb"/>
+<text x="1282" y="721" class="arrow-label">приёмка: остатки и КМ</text>
+<path d="M 1380 815 H 1440 V 434 H 1480" class="arrow"/>
+<rect x="1383" y="543" width="112" height="24" rx="8" fill="#f6f8fb"/>
+<text x="1390" y="560" class="arrow-label">данные из ядра</text>
+<path d="M 1630 434 V 720" class="arrow"/>
+<rect x="1635" y="562" width="104" height="24" rx="8" fill="#f6f8fb"/>
+<text x="1642" y="579" class="arrow-label">данные сделки</text>
+<path d="M 1480 735 H 1425 V 715 H 720 V 460 H 118 V 434" class="arrow" stroke-dasharray="9 7"/>
+<rect x="683" y="688" width="136" height="24" rx="8" fill="#f6f8fb"/>
+<text x="690" y="705" class="arrow-label">статус проведения</text>
+<path d="M 720 402 V 886 H 1460 V 785 H 1480" class="arrow" stroke-dasharray="9 7"/>
+<rect x="1028" y="856" width="112" height="24" rx="8" fill="#f6f8fb"/>
+<text x="1035" y="873" class="arrow-label">условия оплаты</text>
+<rect x="70" y="932" width="1780" height="76" rx="14" fill="#fff" stroke="#d6e0e8" stroke-width="2"/>
+<circle cx="99" cy="962" r="8" fill="#00A6A6"/><text x="118" y="967" class="small">Сплошная стрелка — обязательная передача результата.</text>
+<path d="M 500 962 H 568" class="arrow" stroke-dasharray="9 7"/><text x="582" y="967" class="small">Пунктир — обратная связь или параллельное согласование.</text>
+<text x="94" y="994" class="small">Контроль: поставка принимается только после сверки документов и кодов; сделка завершается после проверки оплаты и отражения в учёте.</text>
+</svg>

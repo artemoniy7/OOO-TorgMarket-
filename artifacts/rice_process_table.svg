@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" role="img" aria-labelledby="title description">
+<title id="title">RICE-карта движения задач ООО «ТоргМаркет»</title>
+<desc id="description">Таблица ролей и передачи задач между сотрудниками без указания имён.</desc>
+<style>.title{font:700 36px Arial,sans-serif;fill:#132238}.subtitle{font:400 18px Arial,sans-serif;fill:#5a6879}.stage{font:700 15px Arial,sans-serif;fill:#28517a}.head{font:700 16px Arial,sans-serif;fill:#fff}.cell{font:400 15px Arial,sans-serif;fill:#17283d}.note{font:400 14px Arial,sans-serif;fill:#526174}.legend{font:700 14px Arial,sans-serif;fill:#28517a}</style>
+<rect width="1920" height="1080" fill="#f6f8fb"/>
+<rect x="0" y="0" width="1920" height="12" fill="#00a6a6"/>
+<text x="70" y="70" class="title">RICE-карта: движение задач в ООО «ТоргМаркет»</text>
+<text x="70" y="103" class="subtitle">Схема показывает, кто запускает работу, кому передаёт результат и какие процессы идут одновременно.</text>
+<text x="70" y="133" class="subtitle">Роли указаны без персональных данных. Контрольные точки формируют единый цикл: от цели до отражения сделки.</text>
+<text x="70" y="181" class="legend">ЦЕПОЧКА ПРОЦЕССА</text>
+<rect x="70" y="198" width="342" height="34" rx="17" fill="#e1edf6"/>
+<text x="88" y="220" class="stage">Планирование</text>
+<path d="M 422 215 H 434" stroke="#00a6a6" stroke-width="3"/>
+<path d="M 429 210 L 436 215 L 429 220" fill="none" stroke="#00a6a6" stroke-width="3"/>
+<rect x="426" y="198" width="342" height="34" rx="17" fill="#e1edf6"/>
+<text x="444" y="220" class="stage">Заказ</text>
+<path d="M 778 215 H 790" stroke="#00a6a6" stroke-width="3"/>
+<path d="M 785 210 L 792 215 L 785 220" fill="none" stroke="#00a6a6" stroke-width="3"/>
+<rect x="782" y="198" width="342" height="34" rx="17" fill="#e1edf6"/>
+<text x="800" y="220" class="stage">Поставка</text>
+<path d="M 1134 215 H 1146" stroke="#00a6a6" stroke-width="3"/>
+<path d="M 1141 210 L 1148 215 L 1141 220" fill="none" stroke="#00a6a6" stroke-width="3"/>
+<rect x="1138" y="198" width="342" height="34" rx="17" fill="#e1edf6"/>
+<text x="1156" y="220" class="stage">Учёт в системе</text>
+<path d="M 1490 215 H 1502" stroke="#00a6a6" stroke-width="3"/>
+<path d="M 1497 210 L 1504 215 L 1497 220" fill="none" stroke="#00a6a6" stroke-width="3"/>
+<rect x="1494" y="198" width="342" height="34" rx="17" fill="#e1edf6"/>
+<text x="1512" y="220" class="stage">Продажа и контроль</text>
+<rect x="70" y="254" width="1780" height="62" rx="10" fill="#1d4f7a"/>
+<text x="86" y="292" class="head">Роль</text>
+<text x="396" y="292" class="head">Инициирует задачу</text>
+<text x="786" y="292" class="head">Передаёт результат</text>
+<text x="1141" y="292" class="head">Что происходит параллельно</text>
+<text x="1596" y="292" class="head">Контрольная точка</text>
+<rect x="70" y="316" width="1780" height="108" fill="#ffffff"/>
+<rect x="70" y="316" width="7" height="108" fill="#00a6a6"/>
+<text x="86" y="345" class="cell" font-weight="700">Главный директор</text>
+<text x="396" y="345" class="cell" font-weight="400">Утверждает цели, бюджет и</text>
+<text x="396" y="364" class="cell" font-weight="400">приоритеты проекта.</text>
+<text x="786" y="345" class="cell" font-weight="400">Коммерческому директору: план продаж</text>
+<text x="786" y="364" class="cell" font-weight="400">и KPI.</text>
+<text x="1141" y="345" class="cell" font-weight="400">Получает статусы продаж, поставок, финансов и</text>
+<text x="1141" y="364" class="cell" font-weight="400">ИТ; снимает блокеры.</text>
+<text x="1596" y="345" class="cell" font-weight="400">Решение принято, ресурсы</text>
+<text x="1596" y="364" class="cell" font-weight="400">распределены.</text>
+<path d="M 380 316 V 424" stroke="#d6e0e8" stroke-width="1"/>
+<path d="M 770 316 V 424" stroke="#d6e0e8" stroke-width="1"/>
+<path d="M 1125 316 V 424" stroke="#d6e0e8" stroke-width="1"/>
+<path d="M 1580 316 V 424" stroke="#d6e0e8" stroke-width="1"/>
+<path d="M 70 424 H 1850" stroke="#d6e0e8" stroke-width="1"/>
+<rect x="70" y="424" width="1780" height="108" fill="#eef4f8"/>
+<rect x="70" y="424" width="7" height="108" fill="#00a6a6"/>
+<text x="86" y="453" class="cell" font-weight="700">Коммерческий директор</text>
+<text x="396" y="453" class="cell" font-weight="400">Формирует спрос, предложение для</text>
+<text x="396" y="472" class="cell" font-weight="400">клиента и условия продажи.</text>
+<text x="786" y="453" class="cell" font-weight="400">Менеджеру по поставщикам:</text>
+<text x="786" y="472" class="cell" font-weight="400">потребность. Бухгалтеру: условия</text>
+<text x="786" y="491" class="cell" font-weight="400">оплаты. ИТ: требования к операции.</text>
+<text x="1141" y="453" class="cell" font-weight="400">Ведёт переговоры с клиентом и уточняет</text>
+<text x="1141" y="472" class="cell" font-weight="400">номенклатуру, цену, количество.</text>
+<text x="1596" y="453" class="cell" font-weight="400">Заказ согласован с клиентом.</text>
+<path d="M 380 424 V 532" stroke="#d6e0e8" stroke-width="1"/>
+<path d="M 770 424 V 532" stroke="#d6e0e8" stroke-width="1"/>
+<path d="M 1125 424 V 532" stroke="#d6e0e8" stroke-width="1"/>
+<path d="M 1580 424 V 532" stroke="#d6e0e8" stroke-width="1"/>
+<path d="M 70 532 H 1850" stroke="#d6e0e8" stroke-width="1"/>
+<rect x="70" y="532" width="1780" height="108" fill="#ffffff"/>
+<rect x="70" y="532" width="7" height="108" fill="#00a6a6"/>
+<text x="86" y="561" class="cell" font-weight="700">Менеджер по работе с</text>
+<text x="86" y="580" class="cell" font-weight="700">поставщиками</text>
+<text x="396" y="561" class="cell" font-weight="400">Запрашивает наличие, цену, сроки и</text>
+<text x="396" y="580" class="cell" font-weight="400">документы у поставщиков.</text>
+<text x="786" y="561" class="cell" font-weight="400">Логисту: график и состав поставки.</text>
+<text x="786" y="580" class="cell" font-weight="400">Бухгалтеру: УПД/счёт.</text>
+<text x="1141" y="561" class="cell" font-weight="400">Подтверждает сроки поставки и отслеживает</text>
+<text x="1141" y="580" class="cell" font-weight="400">изменения у поставщика.</text>
+<text x="1596" y="561" class="cell" font-weight="400">Поставка подтверждена.</text>
+<path d="M 380 532 V 640" stroke="#d6e0e8" stroke-width="1"/>
+<path d="M 770 532 V 640" stroke="#d6e0e8" stroke-width="1"/>
+<path d="M 1125 532 V 640" stroke="#d6e0e8" stroke-width="1"/>
+<path d="M 1580 532 V 640" stroke="#d6e0e8" stroke-width="1"/>
+<path d="M 70 640 H 1850" stroke="#d6e0e8" stroke-width="1"/>
+<rect x="70" y="640" width="1780" height="108" fill="#eef4f8"/>
+<rect x="70" y="640" width="7" height="108" fill="#00a6a6"/>
+<text x="86" y="669" class="cell" font-weight="700">Логист</text>
+<text x="396" y="669" class="cell" font-weight="400">Принимает товар, сверяет</text>
+<text x="396" y="688" class="cell" font-weight="400">количество, документы и коды</text>
+<text x="396" y="707" class="cell" font-weight="400">маркировки.</text>
+<text x="786" y="669" class="cell" font-weight="400">ИТ: данные о товаре и кодах.</text>
+<text x="786" y="688" class="cell" font-weight="400">Коммерческому директору: доступный</text>
+<text x="786" y="707" class="cell" font-weight="400">остаток.</text>
+<text x="1141" y="669" class="cell" font-weight="400">Размещает товар на складе, фиксирует</text>
+<text x="1141" y="688" class="cell" font-weight="400">расхождения и готовит отгрузку.</text>
+<text x="1596" y="669" class="cell" font-weight="400">Товар доступен для продажи.</text>
+<path d="M 380 640 V 748" stroke="#d6e0e8" stroke-width="1"/>
+<path d="M 770 640 V 748" stroke="#d6e0e8" stroke-width="1"/>
+<path d="M 1125 640 V 748" stroke="#d6e0e8" stroke-width="1"/>
+<path d="M 1580 640 V 748" stroke="#d6e0e8" stroke-width="1"/>
+<path d="M 70 748 H 1850" stroke="#d6e0e8" stroke-width="1"/>
+<rect x="70" y="748" width="1780" height="108" fill="#ffffff"/>
+<rect x="70" y="748" width="7" height="108" fill="#00a6a6"/>
+<text x="86" y="777" class="cell" font-weight="700">ИТ-специалист</text>
+<text x="396" y="777" class="cell" font-weight="400">Настраивает БД и интеграцию с</text>
+<text x="396" y="796" class="cell" font-weight="400">«Честным знаком»; проверяет статусы</text>
+<text x="396" y="815" class="cell" font-weight="400">кодов.</text>
+<text x="786" y="777" class="cell" font-weight="400">Коммерческому директору и бухгалтеру:</text>
+<text x="786" y="796" class="cell" font-weight="400">подтверждение корректной операции.</text>
+<text x="1141" y="777" class="cell" font-weight="400">Система резервирует остаток, создаёт документ</text>
+<text x="1141" y="796" class="cell" font-weight="400">и ведёт журнал изменений.</text>
+<text x="1596" y="777" class="cell" font-weight="400">Данные и коды валидны.</text>
+<path d="M 380 748 V 856" stroke="#d6e0e8" stroke-width="1"/>
+<path d="M 770 748 V 856" stroke="#d6e0e8" stroke-width="1"/>
+<path d="M 1125 748 V 856" stroke="#d6e0e8" stroke-width="1"/>
+<path d="M 1580 748 V 856" stroke="#d6e0e8" stroke-width="1"/>
+<path d="M 70 856 H 1850" stroke="#d6e0e8" stroke-width="1"/>
+<rect x="70" y="856" width="1780" height="108" fill="#eef4f8"/>
+<rect x="70" y="856" width="7" height="108" fill="#00a6a6"/>
+<text x="86" y="885" class="cell" font-weight="700">Главный бухгалтер</text>
+<text x="396" y="885" class="cell" font-weight="400">Проверяет первичные документы, НДС,</text>
+<text x="396" y="904" class="cell" font-weight="400">оплату и итоговую сумму сделки.</text>
+<text x="786" y="885" class="cell" font-weight="400">Всем участникам: статус проведения и</text>
+<text x="786" y="904" class="cell" font-weight="400">замечания по документам.</text>
+<text x="1141" y="885" class="cell" font-weight="400">Отражает операцию в учёте, сверяет оплату и</text>
+<text x="1141" y="904" class="cell" font-weight="400">хранит комплект документов.</text>
+<text x="1596" y="885" class="cell" font-weight="400">Сделка проведена в учёте.</text>
+<path d="M 380 856 V 964" stroke="#d6e0e8" stroke-width="1"/>
+<path d="M 770 856 V 964" stroke="#d6e0e8" stroke-width="1"/>
+<path d="M 1125 856 V 964" stroke="#d6e0e8" stroke-width="1"/>
+<path d="M 1580 856 V 964" stroke="#d6e0e8" stroke-width="1"/>
+<path d="M 70 964 H 1850" stroke="#d6e0e8" stroke-width="1"/>
+<rect x="70" y="986" width="1780" height="46" rx="10" fill="#e5f7f5"/>
+<text x="92" y="1015" class="note">Правило работы: каждая передача фиксируется в системе или документе; при ошибке задача возвращается исполнителю на уточнение.</text>
+</svg>
