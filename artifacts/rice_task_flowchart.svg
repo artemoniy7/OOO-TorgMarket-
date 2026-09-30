@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" role="img" aria-labelledby="title desc">
+<title id="title">Сквозной процесс поставки и продажи ООО «ТоргМаркет»</title>
+<desc id="desc">Блок-схема со служебными дорожками: от потребности в товаре до проведения сделки в учёте.</desc>
+<defs><marker id="arrowhead" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M 0 0 L 10 4 L 0 8 z" fill="#3B5966"/></marker></defs>
+<style>.eyebrow{font:700 14px Arial,sans-serif;fill:#1e5965;letter-spacing:3px}.title{font:700 40px Georgia,serif;fill:#193740}.subtitle{font:400 17px Arial,sans-serif;fill:#536873}.lane{font:700 15px Arial,sans-serif;fill:#fff}.task{font:700 14px Arial,sans-serif;fill:#203b45}.decision{fill:#f9fbfc;stroke:#3b5966;stroke-width:2}.decision-text{font:700 12px Arial,sans-serif;fill:#203b45}.arrow{fill:none;stroke:#3b5966;stroke-width:3;marker-end:url(#arrowhead)}.arrow-label{font:700 13px Arial,sans-serif;fill:#3b5966}.marker{font:700 13px Arial,sans-serif;fill:#fff}.legend{font:700 14px Arial,sans-serif;fill:#334e58}.note{font:400 14px Arial,sans-serif;fill:#536873}</style>
+<rect width="1920" height="1080" fill="#f8fbf9"/>
+<rect x="0" y="0" width="28" height="1080" fill="#1d5a65"/>
+<text x="70" y="75" class="eyebrow">СКВОЗНОЙ ПРОЦЕСС</text>
+<path d="M 70 92 H 155" stroke="#1d5a65" stroke-width="5"/>
+<text x="70" y="145" class="title">Схема процесса: от потребности до продажи товара</text>
+<text x="70" y="180" class="subtitle">Роли указаны без персональных данных. Метки C и U показывают создание и изменение записи в БД.</text>
+<rect x="70" y="225" width="1780" height="620" rx="10" fill="#fff" stroke="#c7d4d7" stroke-width="2"/>
+<rect x="70" y="270" width="190" height="115" fill="#266675"/>
+<rect x="260" y="270" width="1590" height="115" fill="#f5f9f8"/>
+<text x="92" y="320" class="lane">Коммерческий</text>
+<text x="92" y="339" class="lane">директор</text>
+<rect x="70" y="385" width="190" height="115" fill="#3a7a7a"/>
+<rect x="260" y="385" width="1590" height="115" fill="#edf4f2"/>
+<text x="92" y="435" class="lane">Менеджер по работе</text>
+<text x="92" y="454" class="lane">с поставщиками</text>
+<rect x="70" y="500" width="190" height="115" fill="#538465"/>
+<rect x="260" y="500" width="1590" height="115" fill="#f5f9f8"/>
+<text x="92" y="550" class="lane">Логист</text>
+<rect x="70" y="615" width="190" height="115" fill="#496b91"/>
+<rect x="260" y="615" width="1590" height="115" fill="#edf4f2"/>
+<text x="92" y="665" class="lane">Ядро системы /</text>
+<text x="92" y="684" class="lane">ИТ-специалист</text>
+<rect x="70" y="730" width="190" height="115" fill="#7c5c77"/>
+<rect x="260" y="730" width="1590" height="115" fill="#f5f9f8"/>
+<text x="92" y="780" class="lane">Главный</text>
+<text x="92" y="799" class="lane">бухгалтер</text>
+<circle cx="300" cy="327" r="29" fill="#fff" stroke="#1d5a65" stroke-width="4"/>
+<rect x="355" y="294" width="200" height="66" rx="8" fill="#FFFFFF" stroke="#59707C" stroke-width="2"/>
+<text x="369" y="321" class="task">Сформировать потребность</text>
+<circle cx="540" cy="285" r="15" fill="#3567a6"/><text x="536" y="290" class="marker">C</text>
+<rect x="620" y="409" width="200" height="66" rx="8" fill="#FFFFFF" stroke="#59707C" stroke-width="2"/>
+<text x="634" y="436" class="task">Запросить наличие и срок</text>
+<text x="634" y="453" class="task">поставки</text>
+<path d="M 890 400 L 942 442 L 890 484 L 838 442 Z" class="decision"/>
+<text x="857" y="434" class="decision-text">Товар</text>
+<text x="857" y="448" class="decision-text">доступен?</text>
+<rect x="1010" y="524" width="200" height="66" rx="8" fill="#FFFFFF" stroke="#59707C" stroke-width="2"/>
+<text x="1024" y="551" class="task">Принять поставку и</text>
+<text x="1024" y="568" class="task">сверить УПД</text>
+<rect x="1245" y="639" width="200" height="66" rx="8" fill="#e4efff" stroke="#59707C" stroke-width="2"/>
+<text x="1259" y="666" class="task">Проверить остатки и коды</text>
+<text x="1259" y="683" class="task">КМ</text>
+<path d="M 1495 630 L 1547 672 L 1495 714 L 1443 672 Z" class="decision"/>
+<text x="1462" y="664" class="decision-text">Данные</text>
+<text x="1462" y="678" class="decision-text">корректны?</text>
+<rect x="1595" y="294" width="200" height="66" rx="8" fill="#FFFFFF" stroke="#59707C" stroke-width="2"/>
+<text x="1609" y="321" class="task">Подтвердить товар для</text>
+<text x="1609" y="338" class="task">продажи</text>
+<rect x="1595" y="639" width="200" height="66" rx="8" fill="#e4efff" stroke="#59707C" stroke-width="2"/>
+<text x="1609" y="666" class="task">Создать продажу и</text>
+<text x="1609" y="683" class="task">вывести КМ</text>
+<rect x="1595" y="754" width="200" height="66" rx="8" fill="#FFFFFF" stroke="#59707C" stroke-width="2"/>
+<text x="1609" y="781" class="task">Провести документы и</text>
+<text x="1609" y="798" class="task">оплату</text>
+<circle cx="1810" cy="812" r="29" fill="#fff" stroke="#1d5a65" stroke-width="4"/>
+<circle cx="1425" cy="629" r="15" fill="#6a52a3"/><text x="1421" y="634" class="marker">U</text>
+<circle cx="1775" cy="629" r="15" fill="#6a52a3"/><text x="1771" y="634" class="marker">U</text>
+<circle cx="1775" cy="744" r="15" fill="#6a52a3"/><text x="1771" y="749" class="marker">U</text>
+<path d="M 329 327 H 355" class="arrow"/>
+<path d="M 555 327 H 590 V 442 H 620" class="arrow"/>
+<path d="M 820 442 H 838" class="arrow"/><text x="760" y="425" class="arrow-label">проверка</text>
+<path d="M 942 442 H 970 V 557 H 1010" class="arrow"/><text x="953" y="495" class="arrow-label">да</text>
+<path d="M 890 484 V 510 H 690 V 475" class="arrow"/><text x="800" y="503" class="arrow-label">нет</text>
+<path d="M 1210 557 H 1225 V 672 H 1245" class="arrow"/><text x="1125" y="625" class="arrow-label">приёмка → ядро</text>
+<path d="M 1445 672 H 1443" class="arrow"/><text x="1360" y="655" class="arrow-label">проверка</text>
+<path d="M 1547 672 H 1575 V 327 H 1595" class="arrow"/><text x="1555" y="500" class="arrow-label">да</text>
+<path d="M 1495 714 V 730 H 1110 V 590" class="arrow"/><text x="1210" y="720" class="arrow-label">нет: уточнить расхождения</text>
+<path d="M 1695 360 V 606 H 1695 V 639" class="arrow"/>
+<path d="M 1695 705 V 754" class="arrow"/>
+<path d="M 1795 787 H 1810" class="arrow"/>
+<rect x="70" y="875" width="1780" height="130" rx="10" fill="#eef5f3" stroke="#c7d4d7" stroke-width="2"/>
+<circle cx="103" cy="912" r="15" fill="#3567a6"/><text x="99" y="917" class="marker">C</text>
+<text x="130" y="917" class="legend">Создание записи в БД</text><text x="365" y="917" class="note">— потребность / заказ поставщику</text>
+<circle cx="103" cy="952" r="15" fill="#6a52a3"/><text x="99" y="957" class="marker">U</text>
+<text x="130" y="957" class="legend">Изменение записи</text><text x="365" y="957" class="note">— остатки, коды маркировки, статус продажи, дата проведения</text>
+<circle cx="103" cy="987" r="15" fill="#a65a5a"/><text x="99" y="992" class="marker">D</text>
+<text x="130" y="992" class="legend">Удаление</text><text x="220" y="992" class="note">— в процессе не предусмотрено: операции сохраняются в журнале.</text>
+</svg>
